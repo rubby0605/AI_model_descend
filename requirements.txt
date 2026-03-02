@@ -1,0 +1,10 @@
+torch>=2.1.0
+torchvision>=0.16.0
+transformers>=4.45.0
+accelerate>=0.25.0
+peft>=0.7.0
+autoawq>=0.2.0
+torch-pruning>=1.4.0
+datasets>=2.15.0
+onnx>=1.15.0
+pillow>=10.0.0

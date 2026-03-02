@@ -1,0 +1,198 @@
+{
+  "project": "凡人修仙傳 第四季 — 角色外觀 Reference",
+  "source": "《凡人修仙傳 第四季》第1至52話 (bilibili / 原力動畫)",
+  "style": "High-quality 3D Chinese donghua, realistic semi-stylized rendering, cinematic lighting",
+  "notes": "All characters rendered in photorealistic 3D CG style with Chinese xianxia aesthetic",
+
+  "characters": {
+    "韓立_HanLi": {
+      "role": "主角 — 修仙者",
+      "reference_frames": ["fanren_08", "fanren_16", "fanren_20", "fanren_23", "fanren_24"],
+      "appearance": {
+        "face": "Sharp handsome features, angular jawline, straight nose bridge, calm/stoic expression, dark brown eyes, thin eyebrows",
+        "hair": "Long dark brown/black hair, partially tied up in a traditional topknot bun with a small ornamental hairpin, rest flows past shoulders",
+        "build": "Tall, lean, athletic",
+        "skin": "Fair/pale complexion with cool undertones"
+      },
+      "outfits": {
+        "common_robe": "Dark teal/green outer robe over light green or cream inner garment, layered traditional hanfu-style cultivation robes",
+        "battle_armor": "Dark ornate armor with gold/bronze scroll patterns and metallic accents, more militaristic",
+        "travel_cloak": "Grey/white robes with dark scarf/high collar wrap, practical travel outfit"
+      },
+      "signature_items": ["Carries a white rabbit with blue eyes (靈寵)", "Green jade-colored flying sword"],
+      "veo_prompt_snippet": "A young Chinese man with sharp handsome features, long dark brown hair tied in a half-up topknot bun, wearing layered teal-green traditional cultivation robes over cream inner garment. Calm stoic expression, pale complexion. 3D CG donghua style, photorealistic rendering."
+    },
+
+    "南宮婉_NangongWan": {
+      "role": "女主角 — 韓立道侶",
+      "reference_frames": ["fanren_04", "fanren_08", "fanren_20"],
+      "appearance": {
+        "face": "Beautiful, elegant features, almond-shaped eyes, gentle expression, subtle smile",
+        "hair": "Long dark hair with decorative hairpins/accessories, sometimes in an elaborate updo",
+        "build": "Slender, graceful",
+        "skin": "Fair porcelain complexion"
+      },
+      "outfits": {
+        "purple_dress": "Flowing lavender/purple traditional dress with sheer layers, elegant and ethereal",
+        "battle_outfit": "Dark blue-purple fitted outfit with white/silver accents, belt with ornamental pieces, more combat-ready",
+        "winter_outfit": "Orange-red outer garment with brown fur collar/trim, warm tones"
+      },
+      "veo_prompt_snippet": "A beautiful Chinese woman with elegant features, long dark hair with ornamental hairpins, wearing a flowing purple traditional dress with sheer layers. Gentle graceful expression, porcelain skin. 3D CG donghua style, photorealistic rendering."
+    },
+
+    "壯漢角色_MuscularMan": {
+      "role": "配角 — 武者/將領",
+      "reference_frames": ["fanren_19"],
+      "appearance": {
+        "face": "Rugged, strong jawline, short facial hair/stubble, intense expression",
+        "hair": "Dark hair tied in a high topknot, shaved/short sides",
+        "build": "Very muscular, broad-shouldered, imposing physique",
+        "skin": "Tanned/darker complexion"
+      },
+      "outfits": {
+        "armor": "Brown leather and fur-trimmed vest/armor over bare chest, metal arm guards, barbarian-warrior aesthetic"
+      },
+      "veo_prompt_snippet": "A muscular Chinese warrior with rugged features, dark hair in a high topknot, wearing brown leather armor with fur trim over bare chest. Imposing build, tanned skin. 3D CG donghua style."
+    },
+
+    "白衣劍修_WhiteRobeSwordsman": {
+      "role": "配角 — 高階修士",
+      "reference_frames": ["fanren_21"],
+      "appearance": {
+        "face": "Refined, aristocratic features, confident expression",
+        "hair": "Long black hair in an elaborate topknot with ornamental crown/hairpiece",
+        "build": "Tall, elegant bearing"
+      },
+      "outfits": {
+        "white_robe": "Pristine white flowing robes with subtle silver/blue embroidery, carries a sword on back, celestial cultivator aesthetic"
+      },
+      "veo_prompt_snippet": "A tall refined Chinese cultivator with aristocratic features, long black hair with ornamental crown hairpiece, wearing pristine white flowing robes with silver embroidery, sword on back. 3D CG donghua style."
+    },
+
+    "僧人_Monk": {
+      "role": "配角 — 佛修",
+      "reference_frames": ["fanren_21"],
+      "appearance": {
+        "face": "Bald head, strong features, serene expression",
+        "build": "Stocky, solid"
+      },
+      "outfits": {
+        "monk_robe": "Orange/saffron Buddhist monk robes, carrying a large ornate shield/artifact on back"
+      },
+      "veo_prompt_snippet": "A bald Chinese Buddhist monk with strong serene features, wearing orange saffron robes, carrying an ornate artifact on back. 3D CG donghua style."
+    },
+
+    "長老_Elder": {
+      "role": "配角 — 長輩修士",
+      "reference_frames": ["fanren_22"],
+      "appearance": {
+        "face": "Elderly, long white/grey hair flowing freely, wise weathered features",
+        "hair": "Long white-grey hair, loose, traditional elder cultivator look",
+        "build": "Average, slightly hunched with age"
+      },
+      "outfits": {
+        "elder_robe": "Dark blue-grey traditional robes with subtle patterns, scholarly cultivator appearance"
+      },
+      "veo_prompt_snippet": "An elderly Chinese cultivator with long white-grey flowing hair, wise weathered features, wearing dark blue-grey traditional robes. 3D CG donghua style."
+    },
+
+    "紅衣反派_RedAntagonist": {
+      "role": "反派/對手",
+      "reference_frames": ["fanren_24"],
+      "appearance": {
+        "face": "Handsome but cold/sharp features, piercing gaze, long straight dark hair flowing freely",
+        "hair": "Very long straight black hair, no topknot, free-flowing",
+        "build": "Tall, lean"
+      },
+      "outfits": {
+        "dark_armor": "Dark red-bronze ornate armor with gold scrollwork patterns, imposing and regal, demonic/dark cultivator aesthetic"
+      },
+      "veo_prompt_snippet": "A handsome but cold-featured Chinese man with very long straight black hair flowing freely, wearing dark red-bronze ornate armor with gold scrollwork. Piercing intense gaze. 3D CG donghua style."
+    },
+
+    "宋玉_SongYu": {
+      "role": "重要配角 — 落雲宗白鳳峰峰主 / 白鳳仙",
+      "reference_frames": [],
+      "appearance": {
+        "face": "Heart-stoppingly beautiful, almond-shaped extraordinarily clear bright eyes, gentle warm smile, dark delicate eyebrows, serene and lovely bearing",
+        "hair": "Long flowing dark hair with elegant ornamental hairpins, sometimes in a refined updo with dangling hair accessories",
+        "build": "Slender, graceful, elegant posture",
+        "skin": "Fair porcelain complexion, flawless"
+      },
+      "outfits": {
+        "blue_robe": "Flowing blue traditional cultivation robes with white/silver trim, elegant and refined, Luoyun Sect style",
+        "white_dress": "Pure white flowing palace-style dress with pale blue sash, ethereal and celestial",
+        "travel_outfit": "Light blue outer robe over white inner garment, practical but still graceful"
+      },
+      "signature_items": ["White pearl artifact (transforms into escape cloud)", "Cultivation genius with Heavenly Spiritual Root (天靈根)"],
+      "veo_prompt_snippet": "A stunningly beautiful Chinese woman with extraordinarily clear bright eyes, long dark hair with elegant ornamental hairpins, wearing flowing blue traditional cultivation robes with white trim. Serene gentle expression, porcelain skin, graceful bearing. 3D CG donghua style, photorealistic rendering."
+    },
+
+    "慕沛靈_MuPeiling": {
+      "role": "配角 — 韓立侍妾",
+      "reference_frames": [],
+      "appearance": {
+        "face": "Attractive features, slightly anxious expression, loyal and devoted look",
+        "hair": "Long dark hair in a simple but neat style, practical hairpins",
+        "build": "Slender, feminine",
+        "skin": "Fair complexion"
+      },
+      "outfits": {
+        "cultivation_robe": "Light purple/lavender traditional robes, modest and proper, Luoyun Sect disciple style"
+      },
+      "veo_prompt_snippet": "A pretty Chinese woman with long dark hair in a neat style, wearing light purple traditional cultivation robes. Loyal devoted expression, fair complexion. 3D CG donghua style."
+    },
+
+    "柳玉_LiuYu": {
+      "role": "配角 — 韓立記名弟子",
+      "reference_frames": [],
+      "appearance": {
+        "face": "Sharp attractive features with a hint of former demonic sect cunning, thin lips, observant eyes",
+        "hair": "Long dark hair, partially tied back, slightly wild",
+        "build": "Tall for a woman, lithe"
+      },
+      "outfits": {
+        "cultivation_robe": "Dark green/teal robes with black accents, more martial in style, former demonic sect influence"
+      },
+      "signature_items": ["Six-Winged Frost Centipedes (六翼霜蚣) spirit insects"],
+      "veo_prompt_snippet": "A tall attractive Chinese woman with sharp features and observant eyes, long dark hair partially tied back, wearing dark green cultivation robes with black accents. Slightly cunning expression. 3D CG donghua style."
+    },
+
+    "第二元嬰_SecondNascentSoul": {
+      "role": "反派 — 韓立失控的第二元嬰",
+      "reference_frames": [],
+      "appearance": {
+        "face": "Skull-like head with protruding fangs, terrifying demonic features BUT with Han Li's recognizable eyes",
+        "hair": "No hair, skeletal head",
+        "build": "Imposing dark figure wreathed in black demonic qi",
+        "skin": "Grey-black corpse-like skin"
+      },
+      "outfits": {
+        "corpse_armor": "Tattered dark robes merged with the Heavenly Fiend Corpse body, one arm gleaming gold-and-silver metallic"
+      },
+      "signature_items": ["Gold-and-silver metallic arm", "Black demonic flames", "Profound Yin Demonic Qi aura"],
+      "veo_prompt_snippet": "A terrifying demonic figure with a skull-like head, protruding fangs, and one gold-and-silver metallic arm, wreathed in swirling black demonic qi. Eyes eerily resemble Han Li's. Tattered dark robes. 3D CG donghua style, dark horror aesthetic."
+    }
+  },
+
+  "world_aesthetic": {
+    "style_description": "Chinese xianxia fantasy world, 3D photorealistic CG animation by Original Force (原力動畫) for bilibili",
+    "lighting": "Cinematic, volumetric fog/mist, dramatic color grading with cool blue-teal shadows and warm amber highlights",
+    "environments": ["Mountain peaks above clouds", "Ancient stone temples/palaces", "Dark caves with glowing crystals", "Lush bamboo/flower gardens at night with lanterns", "Snowy mountain passes", "Demonic fire realms with lava"],
+    "color_palette": "Cool teal-blue dominant, warm amber accents, deep reds for antagonists/battle, purple for mystical/feminine, green for protagonist",
+    "vfx": "Glowing magical auras, energy spheres, flying swords with light trails, spiritual qi particles, dragon spirits"
+  },
+
+  "best_reference_images": {
+    "韓立_face_closeup": "fanren_16.png — 35min mark, perfect frontal face closeup",
+    "韓立_face_closeup_2": "fanren_23.png — 13hr mark, another clean closeup in green robes",
+    "韓立_with_南宮婉": "fanren_08.png — 6hr mark, two-shot conversation",
+    "韓立_with_南宮婉_garden": "fanren_20.png — 9hr mark, night garden with purple flowers",
+    "韓立_battle": "fanren_01.png — 2min mark, battle vs dragon with red cape",
+    "韓立_white_rabbit": "fanren_11.png — 10hr mark, holding spirit rabbit",
+    "南宮婉_purple": "fanren_04.png — 30min mark, purple dress in cave",
+    "反派_red_armor": "fanren_24.png — 15hr mark, antagonist closeup",
+    "白衣劍修_and_僧人": "fanren_21.png — 11hr mark, two supporting characters",
+    "ending_fireworks": "fanren_13.png — 16hr mark, credits with all characters"
+  }
+}

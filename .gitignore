@@ -1,0 +1,19 @@
+# Model weights (too large for GitHub)
+pruned_model/
+quantized_model/
+
+# Video files
+*.mp4
+fanren_zhuimo_clips/
+mahoyo_ch13_clips/
+
+# Character frames
+character_frames/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
